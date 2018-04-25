@@ -1,4 +1,5 @@
 //nlogn solution
+//if output has too be number in the array
 
 int hIndex(vector<int>& c) {
     sort(c.begin(),c.end());
