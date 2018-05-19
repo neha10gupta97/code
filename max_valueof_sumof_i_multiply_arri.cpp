@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int maxvalue(vector<int>&arr,int n){
+int maxvalue(vector<int>&arr, int n){
   int maxv=0,sum=0,i;
   for(i=0;i<n;i++){
     maxv+=i*arr[i];
