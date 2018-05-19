@@ -9,8 +9,7 @@ int maxvalue(vector<int>&arr, int n){
   }
   int ans=maxv;
   for(i=0;i<n-1;i++){
-    int x = maxv + sum - n*arr[n-i-1];
-    maxv = x;
+    int maxv = maxv + sum - n*arr[n-i-1];
     ans = max(ans,x);
   }
   return ans;
