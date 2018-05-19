@@ -32,7 +32,7 @@ main(){
   for(i=0;i<n;i++)
     cin>>arr[i];
   separate(arr,n);
-  cout<<"Alternative positive negative: "
+  cout<<"Alternative positive negative: ";
   for(i=0;i<n;i++)
     cout<<arr[i]<<" ";
   cout<<endl;
