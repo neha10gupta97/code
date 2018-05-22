@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Method1: with 0(n) extra space
 int maxlength(vector<int>&arr,int n){
   int i;
   vector<int>inc(n);
