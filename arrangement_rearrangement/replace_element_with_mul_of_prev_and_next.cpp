@@ -3,16 +3,13 @@ using namespace std;
 
 void replace(vector<int>&arr,int n){
   int prev=arr[0];
-  int next,i;
-  for(i=0;i<n;i++){
-    if(i==n-1)
-      next = arr[i];
-    else
-      next=arr[i+1];
+  int i;
+  for(i=0;i<n-1;i++){
     int temp =arr[i];
-    arr[i]=prev*next;
+    arr[i]=prev*arr[i+1];
     prev = temp;
   }
+  arr[i]=prev*arr[i];
 }
 
 main(){
