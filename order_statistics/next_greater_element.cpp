@@ -1,6 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Method 2
+// push the first element, starting with sec compare it with st.top() if less then nextgreaterelement for st.top() is next.
+// For each element pop ele from st till they are less and mark their nextgreaterelement next,
+// All the remaining element at the end are element with no nextgreaterelement => -1
+
 void nextgreaterelement(vector<int>arr,int n){
   stack<int> st;
   vector<int>ans(n);
