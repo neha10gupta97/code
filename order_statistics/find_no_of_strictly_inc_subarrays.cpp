@@ -24,5 +24,5 @@ main(){
   for(i=0;i<n;i++)
     cin>>arr[i];
   int x=maxIncSubarray(arr,n);
-  cout<<"Max no of structly inc subarray: "<<x<<endl;
+  cout<<"Max no of strictly inc subarray: "<<x<<endl;
 }
