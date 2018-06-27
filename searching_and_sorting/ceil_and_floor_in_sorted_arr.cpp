@@ -59,6 +59,9 @@ main(){
   int c=ceilIndex(arr,0,n-1,x);
   int f=floorIndex(arr,0,n-1,x);
 
-  cout<<"Ceil of "<<x<<" = "<<arr[c]<<endl;
-  cout<<"Floor of "<<x<<" = "<<arr[f]<<endl;
+  int ceil = c>=0?arr[c]:-1;
+  int floor = f>=0?arr[f]:-1;
+
+  cout<<"Ceil of "<<x<<" = "<<ceil<<endl;
+  cout<<"Floor of "<<x<<" = "<<floor<<endl;
 }
