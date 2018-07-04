@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//same way max incr subseq len can be found - where at initial: lenarr[i] = 1  and use len instead of sum
+
 main(){
   int i,j,n;
   cin>>n;
